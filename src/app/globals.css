@@ -40,3 +40,58 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Hover container for smooth effect */
+.hover-container {
+  perspective: 1200px;
+  display: inline-block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.hover-container img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  will-change: transform, box-shadow;
+}
+
+/* Highlight on hover */
+.hover-container:hover img {
+  transform: scale(1.07) translateZ(20px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  z-index: 5;
+}
+/* Highlight breadcrumb links on hover */
+.breadcrumb a,
+.breadcrumb-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+  cursor: pointer;
+}
+
+.breadcrumb a:hover,
+.breadcrumb-link:hover {
+  color: #ffc107; /* highlight color */
+  text-decoration: underline;
+}
+
+/* Navbar links hover effect */
+.navbar-nav .nav-link {
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* highlight color on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* optional subtle background */
+}
+
+/* Dropdown items hover effect */
+.navbar-nav .dropdown-item {
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.navbar-nav .dropdown-item:hover {
+  color: #ffc107; /* highlight color on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* subtle background */
+}
