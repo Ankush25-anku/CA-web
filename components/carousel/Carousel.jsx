@@ -27,7 +27,7 @@ export default function Carousel() {
           {/* First Slide */}
           <div className="carousel-item active">
             <img
-              src="/img/carousel-1.jpg"
+              src="/img/carousel-11.jpg"
               className="img-fluid"
               alt="First slide"
             />

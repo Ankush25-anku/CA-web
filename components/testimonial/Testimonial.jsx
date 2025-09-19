@@ -39,9 +39,9 @@ const Testimonial = () => {
             </div>
             <div className="border-top mt-4 pt-3">
               <p className="mb-0">
-                Keerthi & Co. has been managing my company accounts for the past
-                3 years. Their expertise in tax planning and compliance has
-                saved us significant time and money.
+                Ikshvaku Corporate Services Pvt Ltd has been managing my company
+                accounts for the past 3 years. Their expertise in tax planning
+                and compliance has saved us significant time and money.
               </p>
             </div>
           </div>
@@ -66,9 +66,9 @@ const Testimonial = () => {
             </div>
             <div className="border-top mt-4 pt-3">
               <p className="mb-0">
-                The firm provides clear guidance on financial structuring and
+                The team provides clear guidance on financial structuring and
                 GST compliance. I can fully focus on growing my business while
-                they take care of the numbers.
+                Ikshvaku Corporate Services takes care of the numbers.
               </p>
             </div>
           </div>
@@ -93,9 +93,9 @@ const Testimonial = () => {
             </div>
             <div className="border-top mt-4 pt-3">
               <p className="mb-0">
-                Their team is highly professional and approachable. They guided
-                me step-by-step in setting up proper accounting systems for my
-                startup.
+                Their team is highly professional and approachable. Ikshvaku
+                Corporate Services guided me step-by-step in setting up proper
+                accounting systems for my startup.
               </p>
             </div>
           </div>
@@ -120,9 +120,9 @@ const Testimonial = () => {
             </div>
             <div className="border-top mt-4 pt-3">
               <p className="mb-0">
-                Filing taxes used to be stressful, but with Keerthi & Co., it’s
-                completely hassle-free. Their personal attention makes all the
-                difference.
+                Filing taxes used to be stressful, but with Ikshvaku Corporate
+                Services, it’s completely hassle-free. Their personal attention
+                makes all the difference.
               </p>
             </div>
           </div> */}

@@ -16,7 +16,7 @@ export default function About() {
               <img
                 src="/img/about-1.jpg"
                 className="img-fluid w-75 rounded"
-                alt="About Keerthi and Co"
+                alt="About Ikshvaku Corporate Services"
                 style={{ marginBottom: "25%" }}
               />
               <div
@@ -26,7 +26,7 @@ export default function About() {
                 <img
                   src="/img/about-2.jpg"
                   className="img-fluid w-100 rounded"
-                  alt="About Keerthi and Co 2"
+                  alt="About Ikshvaku Corporate Services 2"
                 />
               </div>
             </div>
@@ -38,20 +38,21 @@ export default function About() {
             data-wow-delay=".5s"
           >
             <h5 className="text-primary">About Us</h5>
-            <h1 className="mb-4">It’s Our Business To Ensure Your Success</h1>
+            <h1 className="mb-4">Your Trusted Partner for Corporate Success</h1>
             <p>
-              “Keerthi and Co” was established in 2017 by a young and
-              knowledgeable Chartered Accountant professional. Since its
-              inception, the firm has been delivering reliable and professional
-              accounting and tax services to clients across the country with a
-              focus on quality, timeliness, and efficiency.
+              <b>Ikshvaku Corporate Services Pvt Ltd</b> is a professional
+              corporate services firm specializing in{" "}
+              <b>Accounts, Audit, Taxation, Payroll, and Legal Compliances</b>.
+              We are proudly associated with Mahesh N &amp; Co., Chartered
+              Accountants, ensuring top-quality financial and legal advisory for
+              businesses of all sizes.
             </p>
             <p className="mb-4">
-              Guided by high standards of integrity, we specialize in providing
-              the best accounting solutions, tax advisory, and financial
-              consulting. With a strong emphasis on quality control and a
-              professional team, we are committed to supporting your business
-              growth and financial success.
+              Guided by high standards of integrity and excellence, we are
+              committed to providing reliable, efficient, and result-oriented
+              solutions tailored to your business needs. With our expert team
+              and client-focused approach, we aim to support your growth and
+              long-term success.
             </p>
             <a
               href="#"

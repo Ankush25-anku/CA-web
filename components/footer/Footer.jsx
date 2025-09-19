@@ -171,16 +171,20 @@ const Footer = () => {
             </span>
           </div>
           <div className="col-md-6 text-center text-md-end">
-            <span className="text-light">
-              Designed By{" "}
-              <span className="text-secondary">
-                Ikshvaku Corporate Services Pvt Ltd Team
-              </span>{" "}
-              | Powered By{" "}
-              <span className="text-secondary">
-                Chartered Accountants Network
-              </span>
-            </span>
+           <span className="text-light">
+  Designed By{" "}
+  <a
+    href="https://www.rctechbox.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-secondary text-decoration-none"
+  >
+    RC Erp Technologies Pvt Ltd
+  </a>{" "}
+  | Powered By{" "}
+  <span className="text-secondary">Chartered Accountants Network</span>
+</span>
+
           </div>
         </div>
       </div>
