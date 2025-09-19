@@ -73,13 +73,13 @@ const Footer = () => {
                 <i className="fas fa-angle-right text-secondary me-2"></i>
                 Our Services
               </button>
-              <button
+              {/* <button
                 onClick={() => handleScroll("ourprojects")}
                 className="mb-2 text-white btn btn-link text-start p-0"
               >
                 <i className="fas fa-angle-right text-secondary me-2"></i>
                 Our Projects
-              </button>
+              </button> */}
               <button
                 onClick={() => handleScroll("ourteam")}
                 className="mb-2 text-white btn btn-link text-start p-0"

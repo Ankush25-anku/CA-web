@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       <TeamHeader />
-      <Facts />
+      {/* <Facts /> */}
       <Team />
     </div>
   );

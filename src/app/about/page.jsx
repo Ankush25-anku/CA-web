@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div>
       <AboutHeader />
-      <Facts />
+      {/* <Facts /> */}
       <About />
       <Team />
     </div>

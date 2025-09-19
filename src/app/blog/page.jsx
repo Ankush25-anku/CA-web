@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       <BlogHeader />
-      <Facts />
+      {/* <Facts /> */}
       <Blog />
     </div>
   );

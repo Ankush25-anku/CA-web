@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       <ServiceHeader />
-      <Facts />
+      {/* <Facts /> */}
       <Services />
     </div>
   );

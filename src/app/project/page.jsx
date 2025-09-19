@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       <ProjectHeader />
-      <Facts />
+      {/* <Facts /> */}
       <Project />
     </div>
   );
