@@ -23,10 +23,9 @@ const Footer = () => {
               <span className="text-secondary">Pvt Ltd</span>
             </h1>
             <p className="mt-4 text-light">
-              Established in 2017, Ikshvaku Corporate Services Pvt Ltd is a
-              Chartered Accountant firm committed to providing reliable, timely,
-              and professional services in accounting, taxation, and business
-              advisory across India.
+              Ikshvaku Corporate Services Pvt Ltd is a Chartered Accountant firm
+              committed to providing reliable, timely, and professional services
+              in accounting, taxation, and business advisory across India.
             </p>
             <div className="d-flex hightech-link">
               <a
@@ -141,24 +140,24 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-      <div className="col-lg-3 col-md-6">
-  <h3 className="text-secondary">Contact Us</h3>
-  <div className="text-white mt-4 d-flex flex-column contact-link">
-    <span className="pb-3 text-light border-bottom border-primary">
-      <i className="fas fa-map-marker-alt text-secondary me-2"></i>
-      No.3/2, Ground Floor, Pushkara, Sharada Vidhya Mandir Road, Varthur, Bengaluru, Bengaluru Urban, Karnataka, 560087
-    </span>
-    <span className="py-3 text-light border-bottom border-primary">
-      <i className="fas fa-phone-alt text-secondary me-2"></i>
-      080-68708560, +91 82963 01351, +91 85538 30398
-    </span>
-    <span className="py-3 text-light border-bottom border-primary">
-      <i className="fas fa-envelope text-secondary me-2"></i>
-      ikshvakucorpservices@gmail.com
-    </span>
-  </div>
-</div>
-
+          <div className="col-lg-3 col-md-6">
+            <h3 className="text-secondary">Contact Us</h3>
+            <div className="text-white mt-4 d-flex flex-column contact-link">
+              <span className="pb-3 text-light border-bottom border-primary">
+                <i className="fas fa-map-marker-alt text-secondary me-2"></i>
+                No.3/2, Ground Floor, Pushkara, Sharada Vidhya Mandir Road,
+                Varthur, Bengaluru, Bengaluru Urban, Karnataka, 560087
+              </span>
+              <span className="py-3 text-light border-bottom border-primary">
+                <i className="fas fa-phone-alt text-secondary me-2"></i>
+                080-68708560, +91 82963 01351, +91 85538 30398
+              </span>
+              <span className="py-3 text-light border-bottom border-primary">
+                <i className="fas fa-envelope text-secondary me-2"></i>
+                ikshvakucorpservices@gmail.com
+              </span>
+            </div>
+          </div>
         </div>
 
         <hr className="text-light mt-5 mb-4" />
@@ -167,24 +166,22 @@ const Footer = () => {
           <div className="col-md-6 text-center text-md-start">
             <span className="text-light">
               <i className="fas fa-copyright text-secondary me-2"></i>
-              Ikshvaku Corporate Services Pvt Ltd, All rights reserved.
+              {new Date().getFullYear()} Ikshvaku Corporate Services Pvt Ltd,
+              All rights reserved.
             </span>
           </div>
           <div className="col-md-6 text-center text-md-end">
-           <span className="text-light">
-  Designed By{" "}
-  <a
-    href="https://www.rctechbox.com/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-secondary text-decoration-none"
-  >
-    RC Erp Technologies Pvt Ltd
-  </a>{" "}
-  | Powered By{" "}
-  <span className="text-secondary">Chartered Accountants Network</span>
-</span>
-
+            <span className="text-light">
+              Designed By{" "}
+              <a
+                href="https://www.rctechbox.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-secondary text-decoration-none"
+              >
+                RC Erp Technologies Pvt Ltd
+              </a>
+            </span>
           </div>
         </div>
       </div>

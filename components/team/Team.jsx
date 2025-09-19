@@ -25,14 +25,14 @@ const Team = () => {
               <div className="team-img-icon">
                 <div className="team-img rounded-circle">
                   <img
-                    src="img/team-1.jpg"
+                    src="img/team-4.jpg"
                     className="img-fluid w-100 rounded-circle"
-                    alt="Keerthi M"
+                    alt="Naveen Kumar V G"
                   />
                 </div>
                 <div className="team-name text-center py-3">
-                  <h4>Keerthi M</h4>
-                  <p className="m-0">Chartered Accountant</p>
+                  <h4>Naveen Kumar V G</h4>
+                  <p className="m-0">Managing Director</p>
                 </div>
                 <div className="team-icon d-flex justify-content-center pb-4">
                   <a
@@ -160,7 +160,7 @@ const Team = () => {
               <div className="team-img-icon">
                 <div className="team-img rounded-circle">
                   <img
-                    src="img/team-4.jpg"
+                    src="img/team-1.jpg"
                     className="img-fluid w-100 rounded-circle"
                     alt="Team Member"
                   />

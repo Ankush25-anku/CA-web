@@ -14,11 +14,11 @@ export default function Home() {
   return (
     <div>
       <Carousel />
-      <Facts />
+      {/* <Facts /> */}
       <About />
       <Services />
-      <Project />
-      <Blog />
+      {/* <Project />
+      <Blog /> */}
       <Team />
       <Testimonial />
       <Contact />

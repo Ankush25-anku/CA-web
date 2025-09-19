@@ -2,6 +2,39 @@
 
 import React from "react";
 
+const services = [
+  {
+    slug: "legal-matters",
+    title: "Legal Matters",
+    icon: "fa fa-balance-scale",
+  },
+  {
+    slug: "roc-compliances",
+    title: "ROC Compliances",
+    icon: "fa fa-file-alt",
+  },
+  {
+    slug: "business-advisory",
+    title: "Business Advisory",
+    icon: "fa fa-briefcase",
+  },
+  {
+    slug: "management-support",
+    title: "Management Support",
+    icon: "fas fa-users",
+  },
+  {
+    slug: "auditing-assurance",
+    title: "Auditing & Assurance",
+    icon: "fa fa-search",
+  },
+  {
+    slug: "tax-services",
+    title: "Tax Services",
+    icon: "fas fa-receipt",
+  },
+];
+
 export default function Navbar() {
   return (
     <div className="container-fluid bg-primary">
@@ -34,14 +67,31 @@ export default function Navbar() {
               <a href="/about" className="nav-item nav-link">
                 About
               </a>
-              <a href="/service" className="nav-item nav-link">
-                Services
-              </a>
-              <a href="/project" className="nav-item nav-link">
-                Projects
-              </a>
 
-              {/* Dropdown */}
+              {/* Services Dropdown */}
+              <div className="nav-item dropdown">
+                <a
+                  href="#"
+                  className="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                >
+                  Services
+                </a>
+                <div className="dropdown-menu rounded">
+                  {services.map((service) => (
+                    <a
+                      key={service.slug}
+                      href={`/service/${service.slug}`}
+                      className="dropdown-item"
+                    >
+                      <i className={`${service.icon} me-2 text-secondary`}></i>
+                      {service.title}
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              {/* Pages Dropdown */}
               <div className="nav-item dropdown">
                 <a
                   href="#"
@@ -51,17 +101,11 @@ export default function Navbar() {
                   Pages
                 </a>
                 <div className="dropdown-menu rounded">
-                  <a href="/blog" className="dropdown-item">
-                    Our Blog
-                  </a>
                   <a href="/team" className="dropdown-item">
                     Our Team
                   </a>
                   <a href="/testimonial" className="dropdown-item">
                     Testimonial
-                  </a>
-                  <a href="/404" className="dropdown-item">
-                    404 Page
                   </a>
                 </div>
               </div>
@@ -92,7 +136,7 @@ export default function Navbar() {
             </div>
             <div className="d-flex flex-column pe-4 border-end">
               <span className="text-white-50">Have any questions?</span>
-              <span className="text-secondary">Call: + 0123 456 7890</span>
+              <span className="text-secondary">Call: +91 85538 30398</span>
             </div>
             <div className="d-flex align-items-center justify-content-center ms-4 ">
               <a href="#">

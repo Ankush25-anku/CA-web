@@ -14,7 +14,7 @@ export default function About() {
           >
             <div className="h-100 position-relative">
               <img
-                src="/img/about-1.jpg"
+                src="/img/about-11.jpg"
                 className="img-fluid w-75 rounded"
                 alt="About Ikshvaku Corporate Services"
                 style={{ marginBottom: "25%" }}
@@ -24,7 +24,7 @@ export default function About() {
                 style={{ top: "25%", left: "25%" }}
               >
                 <img
-                  src="/img/about-2.jpg"
+                  src="/img/about-22.jpg"
                   className="img-fluid w-100 rounded"
                   alt="About Ikshvaku Corporate Services 2"
                 />
