@@ -18,9 +18,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "HighTech - IT Solutions Website Template",
-  description: "Professional IT Solutions Website",
-  keywords: "IT Solutions, Software, Technology, Services",
+  title:
+    "Ikshvaku Corporate Services Pvt Ltd - Chartered Accountancy & Corporate Solutions",
+  description:
+    "Ikshvaku Corporate Services Pvt Ltd provides expert Chartered Accountancy, taxation, auditing, compliance, and corporate advisory services to businesses and individuals.",
+  keywords:
+    "Chartered Accountant, Taxation, Auditing, Compliance, Business Advisory, GST, Income Tax, Accounting, Ikshvaku Corporate Services",
 };
 
 export default function RootLayout({ children }) {
